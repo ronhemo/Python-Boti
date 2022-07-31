@@ -1,0 +1,72 @@
+{
+    "intents":[
+        {
+            "tag": "greeting",
+            "patterns" : ["Hi", "Hello", "how are you?", "whats up?",
+            "is anyone there?", "greetings", "Boti?"],
+            "responses": ["Hello!", "Hi there", "How can i help you?", "What can i do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns":["cya", "see you later", "goodbye", "i am leaving", "have a good day", "i need to head out", "bye"],
+            "responses":["Talk to you later", "Goodbye!", "Have an amazing day"]
+        },
+        {
+            "tag":"name",
+            "patterns":["what is your name?", "name?", "whats your name?", "how should i call you?"],
+            "responses":["My name is Boti", "Im called Boti", "You can call me Boti"]
+        },
+        {
+            "tag" : "time",
+            "patterns":["what is the time?", "time?", "what time is it?", "tell the time"],
+            "responses":[""]
+        },
+        {
+            "tag":"joke",
+            "patterns":["tell a joke", "can you tell me a joke?", "do you know any jokes?", "joke"],
+            "responses":["Hear about the new restaurant called Karma?\nTheres no menu: You get what you deserve.", "Did you hear about the actor who fell through the floorboards?\nHe was just going through a stage.", "Did you hear about the claustrophobic astronaut?\nHe just needed a little space.", "What did the left eye say to the right eye?\nBetween you and me, something smells."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {
+            "tag": "search",
+            "patterns": ["search","google"],
+            "responses": ["what would you like to search?", "what would you like to google?"]
+        },
+        {
+            "tag": "youtube",
+            "patterns": ["play", "youtube"],
+            "responses": ["what video do you want to play?"]
+        },
+        {
+            "tag": "creator",
+            "patterns": ["creator", "who created this website", "who is the creator", "builder", "who built this website"],
+            "responses": ["the creator of this website is ron hemo."]
+        },
+        {
+            "tag": "help",
+            "patterns": ["help", "what can you do", "what functions do you have", "how can you assist me"],
+            "responses": [""]
+        },
+        {
+            "tag": "showsecrets",
+            "patterns": ["secrets", "show secrets", "what are my secrets", "can you show me my secrets"],
+            "responses": [""]
+        },
+        {
+            "tag": "addsecret",
+            "patterns": ["add secret", "can i tell you a secret", "i have a secret to store", "save secret"],
+            "responses": ["what is your secret?"]
+        },
+        {
+            "tag": "removesecret",
+            "patterns": ["remove secret", "delete secret", "i want you to remove a secret"],
+            "responses": ["what secret would you like to remove?"]
+        }
+        
+    ]
+}
